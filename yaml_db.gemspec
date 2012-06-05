@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "yaml_db"
-  s.version = "0.2.3"
+  s.version = "0.2.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Adam Wiggins", "Orion Henry"]
-  s.date = "2012-04-30"
+  s.date = "2012-06-05"
   s.description = "\nYamlDb is a database-independent format for dumping and restoring data.  It complements the the database-independent schema format found in db/schema.rb.  The data is saved into db/data.yml.\nThis can be used as a replacement for mysqldump or pg_dump, but only for the databases typically used by Rails apps.  Users, permissions, schemas, triggers, and other advanced database features are not supported - by design.\nAny database that has an ActiveRecord adapter should work\n"
   s.email = "nate@ludicast.com"
   s.extra_rdoc_files = [
